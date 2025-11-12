@@ -42,9 +42,9 @@ CREATE TABLE emp (
 ### 2. Configure Database Connection
 Update the following variables in `EmployeeJDBCApp.java`:
 ```java
-String url = "jdbc:mysql://localhost:3306/YOUR_DATABASE"; // Replace YOUR_DATABASE
-String user = "YOUR_USERNAME";                           // Replace YOUR_USERNAME
-String password = "YOUR_PASSWORD";                       // Replace YOUR_PASSWORD
+String url = "jdbc:mysql://localhost:3306/Mu"; // Replace YOUR_DATABASE
+String user = "root";                           // Replace YOUR_USERNAME
+String password = "Mysql@123";                       // Replace YOUR_PASSWORD
 ```
 
 ### 3. Add MySQL JDBC Driver
